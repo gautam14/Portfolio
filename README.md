@@ -15,25 +15,26 @@ This is a professional developer portfolio built with **Next.js**, **Tailwind CS
 
 ## 📁 Project Structure
 
+```
 my-portfolio/
-├── public/ # Static assets (images, resume.pdf)
+├── public/                   # Static assets (images, resume.pdf)
 ├── src/
-│ ├── app/ # App router pages (Next.js 13+)
-│ │ ├── layout.tsx
-│ │ ├── page.tsx # Home
-│ │ ├── about/
-│ │ ├── projects/
-│ │ ├── resume/
-│ │ └── contact/
-│ ├── components/ # Navbar, Footer (optional)
-│ ├── styles/ # globals.css (Tailwind imports)
-│ └── data/ # Static data (optional)
+│   ├── app/                  # App router pages (Next.js 13+)
+│   │   ├── layout.tsx
+│   │   ├── page.tsx          # Home
+│   │   ├── about/
+│   │   ├── projects/
+│   │   ├── resume/
+│   │   └── contact/
+│   ├── components/           # Navbar, Footer (optional)
+│   ├── styles/               # globals.css (Tailwind imports)
+│   └── data/                 # Static data (optional)
 ├── tailwind.config.ts
 ├── next.config.js
 ├── tsconfig.json
 ├── postcss.config.js
 └── README.md
-
+```
 ---
 
 ## 🛠️ Setup Instructions
@@ -41,40 +42,52 @@ my-portfolio/
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/my-portfolio.git
-cd my-portfolio
+git clone https://github.com/gautam14/Portfolio.git
+cd Portfolio
+```
 
-Install Dependencies
+2. **Install Dependencies**
+   
+```bash
 npm install
+```
 
-Start the Development Server
+3. **Start the Development Server**
+
+```bash
 npm run dev
+```
 
 Visit http://localhost:3000 to view the site.
 
-Build for Production
+4. **Build for Production**
+
+```bash
 npm run build
+```
 
-Export Static Site (for GitHub Pages)
+5. **Export Static Site (for GitHub Pages)**
+```bash
 npm run export
-
+```
 The output will be in the /out folder.
 
-📄 Pages Included
-/ → Home
+---
 
-/about → About Me
+📄 **Pages Included**
 
-/projects → Projects
-
-/resume → Download Resume
-
+/ → Home  
+/about → About Me  
+/projects → Projects  
+/resume → Download Resume  
 /contact → Contact Form
 
-🧾 License
+
+🧾 **License**
 This project is open-source and free to use.
 
-🙋‍♂️ Author
-Made with ❤️ by Gautam.
-LinkedIn | GitHub
 
+
+🙋‍♂️ **Author**
+Made with ❤️ by Gautam.  
+[LinkedIn](https://github.com/gautam14)
